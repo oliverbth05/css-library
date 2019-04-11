@@ -1,0 +1,38 @@
+.container {
+    &-fluid {
+        display: block;
+        width: 100%;
+
+    }
+    
+    &-1200 {
+        margin: auto;
+        display: block;
+        width: 1200px;
+ 
+    }
+    
+    &-1000 {
+        margin: auto;
+        display: block;
+        width: 1000px;
+      
+    }
+    
+    &-500 {
+        margin: auto;
+        display: block;
+        width: 500px;
+     
+    }
+    
+    &-full-section {
+        min-height: 100vh;
+    }
+    
+    &-flex-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

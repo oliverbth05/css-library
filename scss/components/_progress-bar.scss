@@ -1,0 +1,30 @@
+ .progress-bar {
+    
+    &__outer {
+        width: 100%;
+        background: rgb(240, 240, 240);
+        height: 40px;
+        border-radius: 5px;
+        box-shadow: inset 0px 2px 4px 0px rgba(0,0,0,0.32);
+        position: relative;
+    }
+    
+    &__inner {
+        background: linear-gradient(to bottom, $primary-lighter, $primary-darker);
+        height: 100%;
+        border-radius: 5px;
+        text-align: center;
+        color: white;
+        //width: needs to be set using JS
+        z-index: -1;
+    }
+    
+    &__title {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        padding-top: 8px;
+        top: 0;
+        font-weight: normal;
+    }
+} 

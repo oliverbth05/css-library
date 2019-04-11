@@ -1,0 +1,22 @@
+.input {
+    transition: border-color .2s;
+    height: 2.4rem;
+    border-radius: 5px;
+    border: 1.6px solid $grey-2;
+    padding-left: .5rem;
+    
+    &:focus {
+        border-color: $primary-lighter;
+        outline: none;
+    }
+    
+    &-block {
+        display: block;
+        width: 100%;
+    }
+}
+
+.label {
+    display: block;
+    padding-bottom: .5rem;
+}

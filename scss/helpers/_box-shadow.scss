@@ -1,0 +1,17 @@
+.shadow {
+    box-shadow: $shadow;
+}
+
+.shadow-md {
+    box-shadow: $shadow-md;
+}
+
+.shadow-lg {
+    box-shadow: $shadow-lg;
+}
+
+.box {
+    box-shadow: $shadow;
+    border-radius: 5px;
+    padding: 1rem;
+}

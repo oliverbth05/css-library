@@ -1,0 +1,24 @@
+.alert {
+    padding: 1rem;
+    border-left: 15px solid;
+    box-shadow: $shadow;
+    border-radius: 0 5px 5px 0px;
+    
+    &__title {
+        margin-bottom: .5rem;   
+    }
+
+    &-success {
+        background: $success;
+        border-color: $success-darker;
+    }
+    
+    &-error {
+        background: $error;
+        border-color: $error-darker;
+        
+        .alert__title, .alert__body {
+            color: $white;
+        }
+    }
+}

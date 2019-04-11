@@ -1,0 +1,13 @@
+.code-block {
+    
+    &__title {
+        margin-bottom: 1rem;
+    }
+    
+    &__code {
+        font-family: 'IBM Plex Mono', monospace;
+        background: $grey-1;
+        white-space: pre-wrap;
+        padding: 1rem;
+    }
+}

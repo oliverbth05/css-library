@@ -1,0 +1,46 @@
+button {
+    border: none;
+    padding: .8rem;
+    cursor: pointer;
+    
+    &:focus {
+        outline: none;
+    }
+}
+
+.btn-round {
+    border-radius: 5px;
+}
+    
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+/* sizing */
+
+.btn-sm {
+    font-size: .9rem;
+    padding: .5rem;
+}
+
+.btn-lg {
+    font-size: 1.1rem;
+    padding: 1rem;
+}
+
+/* colors */
+
+.btn-primary {
+    transition: all .2s;
+    background: $primary;
+    color: $white;
+    
+    &:hover {
+        background: $primary-darker;
+    }
+    
+    &:active {
+        transform: translateY(2px);
+    }
+}

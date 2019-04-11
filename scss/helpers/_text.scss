@@ -1,0 +1,43 @@
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.font-normal {
+    font-weight: normal;
+}
+
+.font-light {
+    font-weight: lighter;
+}
+
+.color-primary {
+    color: $primary;
+}
+
+.color-primary-darker {
+    color: $primary-darker;
+}
+
+.color-primary-lighter {
+    color: $primary-lighter;
+}
+
+.color-white {
+    color: $white;
+}
