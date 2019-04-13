@@ -1,53 +1,62 @@
+/*
+    BreakPoints
+
+    xs <  576
+    sm >= 576
+    md >= 768
+    lg >= 992
+    xl >= 1200
+*/
+
 @mixin respond($bp) {
-    @if $bp == phone {
-        @media (max-width: 26.5625em) {
-            @content
-        }
+  @if $bp == xs {
+    @media (max-width: 36em) {
+      @content;
     }
-    
-    @if $bp == tablet {
-        @media (max-width: 48em ) {
-            @content
-        }
-    } 
-    
-    @if $bp == laptop {
-        @media (max-width: 64em ) {
-            @content
-        }
+  }
+
+  @if $bp == sm {
+    @media (min-width: 36em) and (max-width: 48em) {
+      @content;
     }
-    
-    @if $bp == dektop {
-        @media (max-width: 90em ) {
-            @content
-        }
+  }
+
+  @if $bp == md {
+    @media (min-width: 48em) and (max-width: 62em) {
+      @content;
     }
-    
-    @if $bp == huge {
-        @media (max-width: 160em ) {
-            @content
-        }
+  }
+
+  @if $bp == lg {
+    @media (min-width: 62em) and (max-width: 75em) {
+      @content;
     }
+  }
+
+  @if $bp == xl {
+    @media (min-width: 75em) {
+      @content;
+    }
+  }
 }
 
 html {
-    font-size: 62.5%;
-    
-     @include respond(huge) {
-        font-size: 100%;
-    }
-    @include respond(desktop) {
-        font-size: 95%;
-    }
-    @include respond(laptop) {
-        font-size: 90%;
-    }
-     @include respond(tablet) {
-        font-size: 85%;
-    }
-    @include respond(phone) {
-        font-size: 80%;
-    }
+
+  font-size: 10px;
+  
+  @include respond(xl) {
+    font-size: 100%;
+  }
+  @include respond(lg) {
+    font-size: 95%;
+  }
+  @include respond(md) {
+    font-size: 90%;
+  }
+  @include respond(sm) {
+    font-size: 85%;
+  }
+  @include respond(xs) {
+    font-size: 80%;
+  }
 }
-
-
