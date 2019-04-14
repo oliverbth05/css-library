@@ -37,7 +37,7 @@
     }
     
     &-responsive {
-        @include respond(tablet) {
+        @include respond(xs) {
             .nav__links {
                 display: none;
             }
