@@ -1,43 +1,63 @@
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 .text-left {
-    text-align: left;
+  text-align: left;
 }
 
 .text-right {
-    text-align: right;
+  text-align: right;
 }
 
 .text-justify {
-    text-align: justify;
+  text-align: justify;
 }
 
 .font-bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .font-normal {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 .font-light {
-    font-weight: lighter;
+  font-weight: lighter;
 }
 
 .color-primary {
-    color: $primary;
+  color: $primary;
 }
 
 .color-primary-darker {
-    color: $primary-darker;
+  color: $primary-darker;
 }
 
 .color-primary-lighter {
-    color: $primary-lighter;
+  color: $primary-lighter;
 }
 
 .color-white {
-    color: $white;
+  color: $white;
+}
+
+.color-black {
+  color: $black;
+}
+
+.color-grey-1 {
+  color: $grey-1;
+}
+
+.color-grey-2 {
+  color: $grey-2;
+}
+
+.color-grey-3 {
+  color: $grey-3;
+}
+
+.color-grey-4 {
+  color: $grey-4;
 }
