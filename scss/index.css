@@ -408,6 +408,10 @@ html {
   background: #fcfcfc;
 }
 
+.bg-black {
+  background: #232332;
+}
+
 .bg-primary {
   background: #00a7e1;
 }
