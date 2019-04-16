@@ -10,31 +10,31 @@
 
 @mixin respond($bp) {
   @if $bp == xs {
-    @media (max-width: 36em) {
+    @media (max-width: 576px) {
       @content;
     }
   }
 
   @if $bp == sm {
-    @media (min-width: 36em) and (max-width: 48em) {
+    @media (min-width: 576px) and (max-width: 768px) {
       @content;
     }
   }
 
   @if $bp == md {
-    @media (min-width: 48em) and (max-width: 62em) {
+    @media (min-width: 768px) and (max-width: 992px) {
       @content;
     }
   }
 
   @if $bp == lg {
-    @media (min-width: 62em) and (max-width: 75em) {
+    @media (min-width: 992px) and (max-width: 1200px) {
       @content;
     }
   }
 
   @if $bp == xl {
-    @media (min-width: 75em) {
+    @media (min-width: 1200px) {
       @content;
     }
   }

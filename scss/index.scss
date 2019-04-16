@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Rubik:300,400,500|Sarabun:300,400,500");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500|Rubik:300,400,500");
 
 @import './_variables.scss';
 @import './_colors.scss';
@@ -11,7 +11,8 @@
 @import './helpers/_margin.scss';
 @import './helpers/_text.scss';
 @import './helpers/_background.scss';
-@import './helpers/_width.scss'; 
+@import './helpers/_width.scss';
+@import './helpers/_border.scss';
 
 @import './components/_containers.scss';
 @import './components/_buttons.scss';
